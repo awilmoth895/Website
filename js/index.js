@@ -1,11 +1,11 @@
-fetch('../components/header.html')
+fetch('/components/header.html')
   .then(response => response.text())
   .then(data => {
     document.getElementById('header-container').innerHTML = data;
     setActiveLink();
 });
 
-fetch('../components/footer.html')
+fetch('/components/footer.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('footer-container').innerHTML = data;
