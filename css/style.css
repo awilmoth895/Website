@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: blueviolet;
+    margin: 0;
+    padding: 10px 10px;
+    /* display: flex; */
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+}
+
+.title {
+    margin: 0;
+    padding: 0px 0px;
+}
+
+.title a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 0px;
+    margin: 0;
+}
+
+.title a:hover {
+    opacity: 0.8;
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 0px;
+    margin: 0;
+}
+
+.links a:hover {
+    /* text-decoration: underline; */
+    opacity: 0.8;
+
+}
+
+.links .active {
+    text-decoration: underline;
+}
+
+
+.content {
+    padding: 0px 20px;
+    max-width: 1000px;
+    margin: auto;
+    /* margin-left: 0px; */
+}
+
+.footer {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.contact a {
+    color: white;
+}

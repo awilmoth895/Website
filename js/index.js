@@ -5,6 +5,12 @@ fetch('../components/header.html')
     setActiveLink();
 });
 
+fetch('../components/footer.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('footer-container').innerHTML = data;
+    });
+
 function setActiveLink() {
     const links = document.querySelectorAll('.links a');
     console.log('Links found:', links);
@@ -13,8 +19,7 @@ function setActiveLink() {
     console.log('Current path:', currentPath);
 
     links.forEach(link => {
-        console.log('Checking link:', link.getAttribute('href'));
-        if ("/" + link.getAttribute('href') === currentPath) {
+        if (link.getAttribute('href') === ".." + currentPath) {
             console.log('Active link found:', link);
             link.classList.add('active');
         } else {
