@@ -1,7 +1,10 @@
 let HEADER_TYPE = 'header.html';
 
 if (window.innerWidth <= 768) {
+    console.log('Mobile view detected');
     HEADER_TYPE = 'mobileHeader.html';
+} else {
+    console.log('Desktop view detected');
 }
 
 let HEADER_PATH = `../components/${HEADER_TYPE}`;
@@ -12,8 +15,6 @@ if (window.location.href.hostname === 'awilmoth895.github.io') {
     HEADER_PATH = `website/components/${HEADER_TYPE}`;
     FOOTER_PATH = 'website/components/footer.html';    
 }
-
-
 
 fetch(HEADER_PATH)
   .then(response => response.text())
@@ -33,11 +34,8 @@ function setActiveLink() {
     console.log('Links found:', links);
     const currentPath = window.location.pathname;
 
-    console.log('Current path:', currentPath);
-
     links.forEach(link => {
         if (link.getAttribute('href') === ".." + currentPath) {
-            console.log('Active link found:', link);
             link.classList.add('active');
         } else {
             link.classList.remove('active');
