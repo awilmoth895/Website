@@ -9,7 +9,7 @@ let FOOTER_PATH = '../components/footer.html';
 
 console.log('Current URL:', window.location.hostname);
 if (window.location.href.hostname === 'awilmoth895.github.io') {
-    HEADER_PATH = 'website/components/header.html';
+    HEADER_PATH = `website/components/${HEADER_TYPE}`;
     FOOTER_PATH = 'website/components/footer.html';    
 }
 
