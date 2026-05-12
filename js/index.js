@@ -1,6 +1,21 @@
 let HEADER_TYPE = 'header.html';
 
-if (window.innerWidth <= 768) {
+const isMobile = () => {
+  // Check if the new API is supported
+  if (navigator.userAgentData) {
+    return navigator.userAgentData.mobile;
+  }
+  
+  // Fallback for Safari/Firefox (see Solution 3)
+  return /Mobi|Android/i.test(navigator.userAgent);
+};
+
+if (isMobile()) {
+  console.log("Mobile device detected via Client Hints");
+}
+
+console.log('Window width:', window.innerWidth);
+if (isMobile()) {
     console.log('Mobile view detected');
     HEADER_TYPE = 'mobileHeader.html';
 } else {
@@ -9,6 +24,7 @@ if (window.innerWidth <= 768) {
 
 let HEADER_PATH = `../components/${HEADER_TYPE}`;
 let FOOTER_PATH = '../components/footer.html';
+let META_PATH = '../components/meta.html';
 
 console.log('Current URL:', window.location.hostname);
 if (window.location.href.hostname === 'awilmoth895.github.io') {
@@ -17,17 +33,26 @@ if (window.location.href.hostname === 'awilmoth895.github.io') {
 }
 
 fetch(HEADER_PATH)
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById('header-container').innerHTML = data;
-    setActiveLink();
-});
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('header-container').innerHTML = data;
+        setActiveLink();
+    }
+);
 
 fetch(FOOTER_PATH)
     .then(response => response.text())
     .then(data => {
         document.getElementById('footer-container').innerHTML = data;
-    });
+    }
+);
+
+fetch(META_PATH)
+    .then(response => response.text())
+    .then(data => {
+        document.head.innerHTML += data;
+    }
+);
 
 function setActiveLink() {
     const links = document.querySelectorAll('.links a');
