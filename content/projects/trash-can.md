@@ -1,0 +1,1 @@
+In October 2025 I bought a trash can from the Oak Park Business district on Facebook Market Place for $25. I then placed it in front of my house and have since been maintaining it for the neighborhood. It gets a lot of use and the amount of trash in the area has seamingly decreased.

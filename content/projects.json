@@ -1,0 +1,20 @@
+{
+    "articles": [
+        {
+            "title": "Trash Can",
+            "date": "October 2025",
+            "description": "In October 2025 I bought a trash can from the Oak Park Business district on Facebook Market Place for $25. I then placed it in front of my house and have since been maintaining it for the neighborhood. It gets a lot of use and the amount of trash in the area has seamingly decreased.",
+            "content": "../content/projects/trash-can.md",
+            "image": "../assets/trash-small.jpg",
+            "link": "../articles/projects.html#trash-can"
+        },
+        {
+            "title": "Zoning Visualizer",
+            "date": "2025",
+            "description": "ere is a website I created to help visualize what zoning changes will look like in Sacramento. It is very much a work in progress and I have not worked on it recently. I even started on a much more straight forward redesign with a new focus on creating a way to show people what the new zoning changes in Sacramento will look like in their neighborhood. Though I have not gotten far.",
+            "content": "../content/projects/zoning-visualizer.md",
+            "image": "../assets/home.gif",
+            "link": "../articles/projects.html#zoning-visualizer"
+        }
+    ]
+}
