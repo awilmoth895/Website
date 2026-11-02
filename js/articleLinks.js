@@ -1,4 +1,5 @@
 import projects from "../content/projects.json" with { type: "json" };
+import writings from "../content/writings.json" with { type: "json" };
 
 async function getArticleContent(path) {
     let content = await fetch(path);
@@ -40,4 +41,8 @@ async function fillArticleLink(content) {
 
 }
 
-fillArticleLink(projects);
+if (document.location.pathname.includes('writing')) {
+    fillArticleLink(writings);
+} else if (document.location.pathname.includes('projects')) {
+    fillArticleLink(projects);
+}

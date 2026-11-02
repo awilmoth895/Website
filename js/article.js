@@ -1,7 +1,10 @@
 import projects from "../content/projects.json" with { type: "json" };
+import writings from "../content/writings.json" with { type: "json" };
 
 const pageID = window.location.hash.substring(1);
-const article = projects.articles.find(article => article.title.replace(/\s+/g, '-').toLowerCase() === pageID);
+const article = [...projects.articles, ...writings.articles].find(article => article.title.replace(/\s+/g, '-').toLowerCase() === pageID);
+
+console.log(article);
 
 function renderMardown(content) {
     var converter = new showdown.Converter();

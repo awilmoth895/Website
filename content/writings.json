@@ -1,0 +1,12 @@
+{
+    "articles": [
+        {
+            "title": "FAR explained",
+            "date": "Nov 1st, 2026",
+            "description": "A very simple, very visual explanation of floor area Ratio (FAR) in land use",
+            "content": "../content/writings/far.md",
+            "image": "../assets/far/neighborhood_temp.jpg",
+            "link": "../articles/writing.html#far-explained"
+        }
+    ]
+}
