@@ -1,10 +1,12 @@
 :root {
     --header-color: #6d597a;
+    --header-color-light: #6d597a50;
     --link-color: #96747f;
     --background-color: #eaac8b;
     --divider-color: #be8c71;
     --link-hover-color: #d49b7c;
     --text-color-light: #1f1f1f;
+    --test-color-dark: #fce7ff;
 }
 
 .hidden {
@@ -45,7 +47,7 @@ body {
 }
 
 .title a {
-    color: white;
+    color: var(--test-color-dark);
     text-decoration: none;
     padding: 0px 0px;
     margin: 0;
@@ -83,7 +85,7 @@ body {
 }
 
 .links a {
-    color: white;
+    color: var(--test-color-dark);
     text-decoration: none;
     padding: 0px 0px;
     margin: 0;
@@ -116,6 +118,12 @@ body {
     /* color: green; */
 }
 
+/* .content::before {
+    content: "";
+    display: block;
+    height: 100px;
+} */
+
 .content {
     padding: 0px 20px;
     max-width: 1000px;
@@ -135,7 +143,7 @@ body {
 
 .footer {
     background-color: var(--header-color);
-    color: white;
+    color: var(--test-color-dark);
     text-align: center;
     bottom: 0;
     position: fixed;
@@ -144,7 +152,7 @@ body {
 }
 
 .contact a {
-    color: white;
+    color: var(--test-color-dark);
 }
 
 img {
@@ -165,7 +173,7 @@ img {
 }
 
 .contact-container a {
-    color: white;
+    color: var(--test-color-dark);
     /* font-size: 24px; */
 }
 
@@ -304,4 +312,65 @@ img {
 .article .article-content p {
     margin: 10px 0;
     /* line-height: 1.5; */
+}
+
+.article .article-content p:has(img) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.article .article-content img {
+    max-width: 500px;
+    min-width: 200px;
+    border-radius: 5px;
+}
+
+.article .article-content .image-group img {
+    max-width: 470px;
+    margin: 0;
+    padding: 0;
+}
+
+.article .article-content figure {
+    scroll-margin-top: 200px;
+    /* top: -100px; */
+    display: flex;
+    flex-direction: column;
+    outline: 2px solid var(--divider-color);
+    border-radius: 2px;
+    padding: 5px;
+    background-color: var(--header-color-light);
+    align-items: center;
+    margin: 10px;
+}
+
+.article .article-content figure:has(table) {
+    max-width: fit-content;
+    /* margin: 0; */
+    padding: 0;
+}
+
+.article .article-content figure table {
+    padding: 5px;
+}
+
+.article .article-content figure td {
+    outline: 1px solid var(--link-color);
+    padding: 10px;
+}
+
+.article .article-content figure th {
+    outline: 1px solid var(--link-color);
+    padding: 10px 15px;
+    background-color: var(--header-color);
+    color: var(--test-color-dark);
+}
+
+.article .article-content figcaption {
+    padding: 5px;
+    color: var(--test-color-dark);
 }

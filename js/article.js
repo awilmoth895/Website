@@ -14,7 +14,7 @@ function checkUrlHash() {
 }
 
 function renderMardown(content) {
-    var converter = new showdown.Converter();
+    var converter = new showdown.Converter({"tables": true});
     return converter.makeHtml(content);
 }
 
@@ -29,7 +29,7 @@ function createImageOrg() {
         var container = `
             <figure id="${PAGE_ID}#${imageID}" class="article-image">
                 <img src="${image.src}" alt="${image.alt}">
-                <figcaption>Image ${imageNum}: ${image.alt}</figcaption>
+                <figcaption>Image ${imageNum} </figcaption>
             </figure>
         `;
         image.outerHTML = container;

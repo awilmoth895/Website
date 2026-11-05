@@ -9,7 +9,12 @@ async function getArticleContent(path) {
 }
 
 async function fillArticleLink(content) {
-    for (const article of content["articles"]) {
+    // for (const article of content["articles"]) {
+    content.articles.forEach(function(article) {
+        if (!article.public) {
+            return;
+        }
+
         const contentContainer = document.querySelector('.article-link-container');
 
         // let content = await getArticleContent(article.content);
@@ -37,7 +42,7 @@ async function fillArticleLink(content) {
         articleLinkElement.addEventListener('click', () => {
             window.location.href = article.link;
         });
-    }
+    });
 
 }
 
