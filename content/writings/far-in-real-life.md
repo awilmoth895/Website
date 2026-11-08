@@ -154,8 +154,10 @@ Seeing a building with a single story difference is super common in all of Oak P
 
 </div>
 
-Based on these I think what matters more is the height of the buildings than how many stories it has. A one story lifted craftsman with a tall attic next to a 3 story townhome with a flat roof isn't going to feel out of place.  
-![one_v_three_4.jpg](../assets/far_explained/one_v_three_4.jpg)
+Based on these I think what matters more is the height of the buildings than how many stories it has. A one story lifted craftsman with a tall attic next to a 3 story townhome with a flat roof isn't going to feel out of place. 
+
+
+![one_v_three_drawn_crop.jpg](../assets/far_explained/one_v_three_drawn_crop.jpg)
 
 But certainly a low roof single story next to a 3 story apartment might feel a bit weirder. I can't say there won't be some houses who have heights that are awkward next to each other but I do think it won't be a huge issue and many of the biggest issues like privacy can be solved with fences or trees and other plants. Of course it is good to keep up to date with what is happening around your house as to not be supprised by any new developments. You can track all permits in Sacramento on a map here: [Sacramento Agency counter](https://sacramento.agencycounter.com/). Make sure to create an account to as this only shows unapproved permits without one and creating one is super easy.
 
@@ -187,3 +189,9 @@ All in all what this means is we are going to see higher density throughout the 
 I like this house [Image](#green_three_story.jpg)
 
 ![green_three_story.jpg](../assets/far_explained/green_three_story.jpg)
+
+Citations still need to be added in to text
+
+https://codelibrary.amlegal.com/codes/sacramentoca/latest/sacramento_ca/0-0-0-32996
+https://www.cityofsacramento.gov/community-development/planning/long-range/general-plan/2040-general-plan
+https://www.cityofsacramento.gov/community-development/planning/major-projects/2040GPZoningConsistency
