@@ -5,8 +5,9 @@
     --background-color: #eaac8b;
     --divider-color: #be8c71;
     --link-hover-color: #d49b7c;
-    --text-color-light: #1f1f1f;
+    --text-color-light: #362c3d;
     --test-color-dark: #fce7ff;
+    --title-color: black;
 }
 
 .hidden {
@@ -18,6 +19,7 @@ body {
     padding: 0;
     background-color: var(--background-color);
     /* cursor: url('../assets/snake.gif'), default; */
+    color: var(--text-color-light);
 }
 
 .header {
@@ -275,6 +277,7 @@ img {
     display: flex;
     flex-direction: column;
     margin: 20px 0;
+    color: var(--title-color);
 }
 
 .article .page-title {
@@ -373,4 +376,21 @@ img {
 .article .article-content figcaption {
     padding: 5px;
     color: var(--test-color-dark);
+}
+
+.article .article-content hr {
+    border: 1px solid var(--divider-color);
+    margin: 20px 0;
+}
+
+.article .article-content h2 {
+    border-bottom: 2px solid var(--header-color);
+    color: var(--title-color);
+}
+
+.article .article-content h3 {
+    margin-bottom: 0px;
+    border-bottom: 1px solid var(--divider-color);
+    color: var(--title-color);
+
 }
