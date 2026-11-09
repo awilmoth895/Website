@@ -20,13 +20,12 @@ function isMobile() {
 }
 
 function getBasePath() {
-    const path = window.location.pathname;
     // minus one for the blank space before the first / and one for the current page
     const pathDepth = window.location.pathname.split("/").length - 2;
 
     if (window.location.href.includes("awilmoth895.github.io")) {
         // subtract one as the hosted version path starts with website/
-        pathDepth--;
+        pathDepth += 1;
     }
 
     let basePath = "";
