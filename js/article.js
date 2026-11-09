@@ -1,5 +1,5 @@
-import projects from "../../content/projects.json" with { type: "json" };
-import writings from "../../content/writings.json" with { type: "json" };
+import projects from "../content/projects.json" with { type: "json" };
+import writings from "../content/writings.json" with { type: "json" };
 
 
 const PAGE_ID = window.location.pathname.split('/').pop().replace(".html", "");

@@ -6,7 +6,7 @@
             "public": true,
             "description": "A very simple, very visual explanation of floor area Ratio (FAR) in land use",
             "content": "../../content/writings/far.md",
-            "image": "../../assets/far/neighborhood_temp.jpg",
+            "image": "../assets/far/neighborhood_temp.jpg",
             "link": "../articles/writing/far-explained.html"
         },
         {
@@ -15,7 +15,7 @@
             "public": false,
             "description": "An overview of FAR and how FAR maximums from the Sacramento 2040 General plan will effect Oak Park",
             "content": "../../content/writings/far-in-real-life.md",
-            "image": "../../assets/far/neighborhood_temp.jpg",
+            "image": "../assets/far/neighborhood_temp.jpg",
             "link": "../articles/writing/far-in-real-life.html"
         }
     ]
