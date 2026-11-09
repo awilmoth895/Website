@@ -25,7 +25,7 @@ function getBasePath() {
 
     if (window.location.href.includes("awilmoth895.github.io")) {
         // subtract one as the hosted version path starts with website/
-        pathDepth += 1;
+        pathDepth -= 1;
     }
 
     let basePath = "";
