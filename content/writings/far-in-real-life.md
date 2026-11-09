@@ -1,4 +1,4 @@
-<!-- ![FAR0.5.jpg](../assets/far_explained/FAR0.5.jpg) -->
+<!-- ![FAR0.5.jpg](../../assets/far_explained/FAR0.5.jpg) -->
 **<span style="color: rgb(186, 55, 42);">!!!This is a work in progress draft and things may change!!!</span>**
 
 In light of the new Sacramento zoning laws which you can read about more at *[Zoning Update][1]*. I wanted to go over floor area ratio (FAR) and what that will look like in Oak Park. While it is not new for the city to have FAR requirements, they are now the primary way that the city is regulating density.
@@ -9,7 +9,7 @@ FAR is the ratio between the area of a lot versus the area of the building on th
 
 The way the city uses FAR to regulate density is by setting up FAR maximums. Meaning in an area with a max FAR of 1 anything building under a FAR of 1 can be built and so forth. In Sacramento the FAR minimums range from 1 to 15 but in Oak Park the FAR maximums are only 1, 2 and 4. as shown in the map in [Image](#OakParkFAR.jpg)
 
-![OakParkFAR.jpg](../assets/far_explained/OakParkFAR.jpg)
+![OakParkFAR.jpg](../../assets/far_explained/OakParkFAR.jpg)
 
 *Source: [2040 General Plan][2]*
 
@@ -48,7 +48,7 @@ I also what to note before I go over how this will effect Oak Park. When a lot i
 
 ## FAR 1
 
-![FAR1.jpg](../assets/far_explained/FAR1.jpg)
+![FAR1.jpg](../../assets/far_explained/FAR1.jpg)
 
 Most of the FAR 1 areas are in south Oak Park. Which historically has had primarily single family homes with a smaller mix of multifamily and comercial buildings. The previous way of defining density was a lot more complex and varied a lot through the area but at a basic level most of the lots were limited to 1 or 2 units on lots with a max height of 35ft, or about 3 stories. (*[Old zoning map][4]*) (*[R-1 Zoning][5]*) Though a third story was required to be within a roof with a slant of 45 degrees this looks to have been removed and will be covered more in another arcticle. (*[Single-Unit Dwelling and Duplex Dwelling Design Guidelines][6]*)
 
@@ -65,8 +65,8 @@ Below in [Image](#vallyVision_front.jpg) and [Image](#vallyVision_topdown.jpg) 
 
 <div class="image-group" markdown="1">
 
-![vallyVision_front.jpg](../assets/far_explained/vallyVision_front.jpg)
-![vallyVision_topdown.jpg](../assets/far_explained/vallyVision_topdown.jpg)
+![vallyVision_front.jpg](../../assets/far_explained/vallyVision_front.jpg)
+![vallyVision_topdown.jpg](../../assets/far_explained/vallyVision_topdown.jpg)
 
 </div>
 
@@ -74,8 +74,8 @@ Because of the setbacks and the desire for front and back yards for a building t
 
 <div class="image-group" markdown="1">
 
-![far1House_front.jpg](../assets/far_explained/far1House_front.jpg)
-![far1House_topdown.jpg](../assets/far_explained/far1House_topdown.jpg)
+![far1House_front.jpg](../../assets/far_explained/far1House_front.jpg)
+![far1House_topdown.jpg](../../assets/far_explained/far1House_topdown.jpg)
 
 </div>
 
@@ -83,8 +83,8 @@ While 3 story buildings wont be as common in FAR 1 zones they are possible if gi
 
 <div class="image-group" markdown="1">
 
-![strapping_topdown.jpg](../assets/far_explained/strapping_topdown.jpg)
-![strapping_front.jpg](../assets/far_explained/strapping_front.jpg)
+![strapping_topdown.jpg](../../assets/far_explained/strapping_topdown.jpg)
+![strapping_front.jpg](../../assets/far_explained/strapping_front.jpg)
 
 </div>
 
@@ -92,11 +92,11 @@ I couldn't find any other good examples of non commercial 3 story buildings in O
 
 <div class="image-group" markdown="1">
 
-![three_story_1.jpg](../assets/far_explained/three_story_1.jpg)     
-![three_story_2.jpg](../assets/far_explained/three_story_2.jpg)  
-![three_story_3.jpg](../assets/far_explained/three_story_3.jpg)  
-![three_story_4.jpg](../assets/far_explained/three_story_4.jpg)  
-![three_story_5.jpg](../assets/far_explained/three_story_5.jpg)
+![three_story_1.jpg](../../assets/far_explained/three_story_1.jpg)     
+![three_story_2.jpg](../../assets/far_explained/three_story_2.jpg)  
+![three_story_3.jpg](../../assets/far_explained/three_story_3.jpg)  
+![three_story_4.jpg](../../assets/far_explained/three_story_4.jpg)  
+![three_story_5.jpg](../../assets/far_explained/three_story_5.jpg)
 
 </div>
 
@@ -104,7 +104,7 @@ Again this is just the max size building you would see, anything under this is a
 
 ## FAR 2
 
-![FAR 2.jpg](../assets/far_explained/FAR%202.jpg)
+![FAR 2.jpg](../../assets/far_explained/FAR%202.jpg)
 
 This will mostly effect North Oak Park. (*[Old zoning map][4]*) Areas with a max of FAR 2 would allow double the amount of floor area on the lot compared to FAR 1 areas. So a 1000 sqft lot could have a 2000 sqft building. This area also has a max height of 45 ft. (*[Building heights][3]*) This is heigher than what has been allowed before in much of Oak Park but most of the area north of Broadway and west of Sac High had this height limit already.(*[R4 zoning][7]*)
 
@@ -114,14 +114,14 @@ An example of an FAR 2 building would be the building in [image](#far2Retail_fro
 
 <div class="image-group" markdown="1">
 
-![far2Retail_front.jpg](../assets/far_explained/far2Retail_front.jpg) 
-![far1Retail_topdown.jpg](../assets/far_explained/far1Retail_topdown.jpg)\`
+![far2Retail_front.jpg](../../assets/far_explained/far2Retail_front.jpg) 
+![far1Retail_topdown.jpg](../../assets/far_explained/far1Retail_topdown.jpg)\`
 
 </div>
 
 Another example would be these 2 story apartments in [Image](#far2_apartments_front.jpg) that take up almost all their lots that you see all over North Oak Park. Though because of the limits of how close these buildings can be to the edge of the lots they are under 2 FAR. Oak Park is has many almost FAR 2 buildings.
 
-![far2_apartments_front.jpg](../assets/far_explained/far2_apartments_front.jpg)
+![far2_apartments_front.jpg](../../assets/far_explained/far2_apartments_front.jpg)
 
 Just like how many FAR 1 buildings end up bing 2 story many FAR 2 buildings will need to be 3 story. Oak Park doesn't have that many 3 story buildings but they will likely look like the 3 story buildings I showed in the FAR 1 section, just on a smaller lot or with less open space.
 
@@ -137,17 +137,17 @@ But what does FAR 4 actually look like. This one is a lot harder because it real
 
 <div class="image-group" markdown="1">
 
-![dmv_topdown.jpg](../assets/far_explained/dmv_topdown.jpg) ![dmv_front.jpg](../assets/far_explained/dmv_front.jpg)
+![dmv_topdown.jpg](../../assets/far_explained/dmv_topdown.jpg) ![dmv_front.jpg](../../assets/far_explained/dmv_front.jpg)
 
 </div>
 
 If you include the parking on the block next to it it is closer to a FAR of 1. ([Image](#dmv_bigParking.jpg)) Though I would likely classify this 2 lots one with an FAR of ~2 and the other with an FAR of 0.
 
-![dmv_bigParking.jpg](../assets/far_explained/dmv_bigParking.jpg)
+![dmv_bigParking.jpg](../../assets/far_explained/dmv_bigParking.jpg)
 
 Where as this 3 story building in [Image](#three_story_downtown.jpg) has a higher FAR of 3 because it fills the whole lot.
 
-![three_story_downtown.jpg](../assets/far_explained/three_story_downtown.jpg)
+![three_story_downtown.jpg](../../assets/far_explained/three_story_downtown.jpg)
 
 What that means is in these areas we are going to see taller buildings between 3 and 8 story buildings, many of which will be mix use as we are already starting to see.
 
@@ -159,17 +159,17 @@ Seeing a building with a single story difference is super common in all of Oak P
 
 <div class="image-group" markdown="1">
 
-![laVenadita.jpg](../assets/far_explained/laVenadita.jpg)
-![one_v_three_1.jpg](../assets/far_explained/one_v_three_1.jpg)
-![one_v_three_2.jpg](../assets/far_explained/one_v_three_2.jpg) 
-![one_v_three_3.jpg](../assets/far_explained/one_v_three_3.jpg)
+![laVenadita.jpg](../../assets/far_explained/laVenadita.jpg)
+![one_v_three_1.jpg](../../assets/far_explained/one_v_three_1.jpg)
+![one_v_three_2.jpg](../../assets/far_explained/one_v_three_2.jpg) 
+![one_v_three_3.jpg](../../assets/far_explained/one_v_three_3.jpg)
 
 </div>
 
 Based on these I think what matters more is the height of the buildings than how many stories it has. A one story lifted craftsman with a tall attic next to a 3 story townhome with a flat roof isn't going to feel out of place. 
 
 
-![one_v_three_drawn_crop.jpg](../assets/far_explained/one_v_three_drawn_crop.jpg)
+![one_v_three_drawn_crop.jpg](../../assets/far_explained/one_v_three_drawn_crop.jpg)
 
 But certainly a low roof single story next to a 3 story apartment might feel a bit weirder. I can't say there won't be some houses who have heights that are awkward next to each other but I do think it won't be a huge issue and many of the biggest issues like privacy can be solved with fences or trees and other plants. Of course it is good to keep up to date with what is happening around your house as to not be supprised by any new developments. You can track all permits in Sacramento on a map here: *[Sacramento Agency counter][13]*. Make sure to create an account to as this only shows unapproved permits without one and creating one is super easy.
 
@@ -179,12 +179,12 @@ but what about higher story buildings. These are not common in Oak Park and will
 
 <div class="image-group" markdown="1">
 
-![short_v_tall_1.jpg](../assets/far_explained/short_v_tall_1.jpg)
-![short_v_tall_2.jpg](../assets/far_explained/short_v_tall_2.jpg)
-![short_v_tall_3.jpg](../assets/far_explained/short_v_tall_3.jpg)
-![short_v_tall_4.jpg](../assets/far_explained/short_v_tall_4.jpg) 
-![short_v_tall_5.jpg](../assets/far_explained/short_v_tall_5.jpg)
-![short_v_tall_6.jpg](../assets/far_explained/short_v_tall_6.jpg)
+![short_v_tall_1.jpg](../../assets/far_explained/short_v_tall_1.jpg)
+![short_v_tall_2.jpg](../../assets/far_explained/short_v_tall_2.jpg)
+![short_v_tall_3.jpg](../../assets/far_explained/short_v_tall_3.jpg)
+![short_v_tall_4.jpg](../../assets/far_explained/short_v_tall_4.jpg) 
+![short_v_tall_5.jpg](../../assets/far_explained/short_v_tall_5.jpg)
+![short_v_tall_6.jpg](../../assets/far_explained/short_v_tall_6.jpg)
 
 </div>
 
@@ -209,7 +209,7 @@ But there is requirements to prevent this happening when a FAR 4 area is next to
 
 Meaning that if you wanted to max out the building on the lot you would be required to have steps up to that height when next to a FAR 1 area, as seen in [Image](#FAR_4_height.jpg). There are also setback requirements that end up with the building being at least 10ft from the house. *[Commercial Setbacks][14]*
 
-![FAR_4_height.jpg](../assets/far_explained/FAR_4_height.jpg)
+![FAR_4_height.jpg](../../assets/far_explained/FAR_4_height.jpg)
 
 ## Conclusion
 
@@ -244,4 +244,4 @@ All in all what this means is we are going to see higher density throughout the 
 
 [14]: https://codelibrary.amlegal.com/codes/sacramentoca/latest/sacramento_ca/0-0-0-35276
 
-[15]: https://awilmoth895.github.io/Website/articles/writing.html#far-explained
+[15]: http://127.0.0.1:5500/articles/writing/far-explained.html

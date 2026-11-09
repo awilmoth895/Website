@@ -4,4 +4,4 @@ Let me know if you want to help!
 
 [Zoning Visualizer](https://awilmoth895.github.io/FAR-Visualizer/)
 
-![home.gif](../assets/home.gif) ![hotel.gif](../assets/hotel.gif)
+![home.gif](../../assets/home.gif) ![hotel.gif](../../assets/hotel.gif)

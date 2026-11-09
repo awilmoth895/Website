@@ -5,18 +5,18 @@
             "date": "Nov 1st, 2026",
             "public": true,
             "description": "A very simple, very visual explanation of floor area Ratio (FAR) in land use",
-            "content": "../content/writings/far.md",
-            "image": "../assets/far/neighborhood_temp.jpg",
-            "link": "../articles/writing.html#far-explained"
+            "content": "../../content/writings/far.md",
+            "image": "../../assets/far/neighborhood_temp.jpg",
+            "link": "../articles/writing/far-explained.html"
         },
         {
             "title": "FAR in real Life",
             "date": "Nov 1st, 2026",
             "public": false,
             "description": "An overview of FAR and how FAR maximums from the Sacramento 2040 General plan will effect Oak Park",
-            "content": "../content/writings/far-in-real-life.md",
-            "image": "../assets/far/neighborhood_temp.jpg",
-            "link": "../articles/writing.html#far-in-real-life"
+            "content": "../../content/writings/far-in-real-life.md",
+            "image": "../../assets/far/neighborhood_temp.jpg",
+            "link": "../articles/writing/far-in-real-life.html"
         }
     ]
 }

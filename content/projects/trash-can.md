@@ -9,7 +9,7 @@ Please reach out if you have any questions or concerns.
 
 ***
 
-![trashcan.jpg](../assets/trash.jpg)
+![trashcan.jpg](../../assets/trash.jpg)
 
 ## Issues I ran into
 

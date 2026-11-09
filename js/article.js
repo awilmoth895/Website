@@ -1,17 +1,9 @@
-import projects from "../content/projects.json" with { type: "json" };
-import writings from "../content/writings.json" with { type: "json" };
-
-const PAGE_ID = window.location.hash.substring(1);
+import projects from "../../content/projects.json" with { type: "json" };
+import writings from "../../content/writings.json" with { type: "json" };
 
 
-function checkUrlHash() {
-    const hash = window.location.hash.split('#');
-    if (hash.length > 2) {
-        window.location.hash = '#' + hash[1];
-        return true;
-    }
-    return false;
-}
+const PAGE_ID = window.location.pathname.split('/').pop().replace(".html", "");
+
 
 function renderMardown(content) {
     var converter = new showdown.Converter({"tables": true});
@@ -27,7 +19,7 @@ function createImageOrg() {
         var imageID = imageSrcSplit[imageSrcSplit.length - 1];
 
         var container = `
-            <figure id="${PAGE_ID}#${imageID}" class="article-image">
+            <figure id="${imageID}" class="article-image">
                 <img src="${image.src}" alt="${image.alt}">
                 <figcaption>Image ${imageNum} </figcaption>
             </figure>
@@ -43,7 +35,6 @@ function setImageRefs(imageID, imageNum) {
 
     if (imageLink) {
         imageLink.forEach(function (link) {
-            link.href = `#${PAGE_ID}#${imageID}`; 
             link.innerHTML = `Image ${imageNum}`;
         });
     }
@@ -75,8 +66,4 @@ async function buildArticle() {
 }
 
 
-if (checkUrlHash()) {
-    location.reload();
-} else {
-    await buildArticle();
-}
+await buildArticle();

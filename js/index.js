@@ -1,7 +1,9 @@
+// minus 2 because split includes a blank before the first / and the current page
+const BASE_PATH = getBasePath(); 
 
 // Head
 document.head.innerHTML +=
-    `<link rel="stylesheet" type="text/css" href="../css/style.css">
+    `<link rel="stylesheet" type="text/css" href="${BASE_PATH}css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +19,17 @@ function isMobile() {
     return /Mobi|Android/i.test(navigator.userAgent);
 }
 
+function getBasePath() {
+    const pathDepth = window.location.pathname.split("/").length - 2;
+
+    let basePath = "";
+
+    for(let i = 0; i < pathDepth; i++) {
+        basePath += "../";
+    }
+
+    return basePath;
+}
 
 function addHeader() {
     let header = ``;
@@ -24,35 +37,35 @@ function addHeader() {
         header = 
             `<div class="header">
                 <div class="title-container">
-                    <img class="logo" src="../assets/leaf_t.gif" alt="">
-                    <h1 class="title"><a href="../index.html">Autumn's Website!</a></h1>
-                    <!-- <img class="logo" src="../assets/leaf_t.gif" alt=""> -->
+                    <img class="logo" src="${BASE_PATH}assets/leaf_t.gif" alt="">
+                    <h1 class="title"><a href="${BASE_PATH}index.html">Autumn's Website!</a></h1>
+                    <!-- <img class="logo" src="${BASE_PATH}assets/leaf_t.gif" alt=""> -->
                 </div>
             </div>
             <div class="mobile-links">
                 <ul class="links">
-                    <li><a href="../pages/about.html">About</a></li>
-                    <li><a href="../pages/projects.html">Projects</a></li>
-                    <li><a href="../pages/writing.html">Writing</a></li>
-                    <li><a href="../pages/music.html">Music</a></li>
-                    <li><a href="../pages/resources.html">Resources</a></li>
+                    <li><a href="${BASE_PATH}pages/about.html">About</a></li>
+                    <li><a href="${BASE_PATH}pages/projects.html">Projects</a></li>
+                    <li><a href="${BASE_PATH}pages/writing.html">Writing</a></li>
+                    <li><a href="${BASE_PATH}pages/music.html">Music</a></li>
+                    <li><a href="${BASE_PATH}pages/resources.html">Resources</a></li>
                 </ul>
             </div>`;
     } else {
         header =
             `<div class="header">
                 <div class="title-container">
-                    <img class="logo" src="../assets/leaf_t.gif" alt="">
-                    <h1 class="title"><a href="../index.html">Autumn's Website</a></h1>
+                    <img class="logo" src="${BASE_PATH}assets/leaf_t.gif" alt="">
+                    <h1 class="title"><a href="${BASE_PATH}index.html">Autumn's Website</a></h1>
                 </div>
             </div>
             <div class="links-container">
                 <ul class="links">
-                    <li><a href="../pages/about.html">About</a></li>
-                    <li><a href="../pages/projects.html">Projects</a></li>
-                    <li><a href="../pages/writing.html">Writing</a></li>
-                    <li><a href="../pages/music.html">Music</a></li>
-                    <li><a href="../pages/resources.html">Resources</a></li>
+                    <li><a href="${BASE_PATH}pages/about.html">About</a></li>
+                    <li><a href="${BASE_PATH}pages/projects.html">Projects</a></li>
+                    <li><a href="${BASE_PATH}pages/writing.html">Writing</a></li>
+                    <li><a href="${BASE_PATH}pages/music.html">Music</a></li>
+                    <li><a href="${BASE_PATH}pages/resources.html">Resources</a></li>
                 </ul>
             </div>`;
     }
@@ -77,10 +90,11 @@ function addFooter() {
 function setActiveLink() {
     const links = document.querySelectorAll('.links a');
     const currentPath = window.location.pathname;
-    const currentlocation = currentPath.substring(currentPath.lastIndexOf('/') + 1);
 
     links.forEach(link => {
-        if (link.getAttribute('href') === ".." + currentPath || link.getAttribute('href').includes(currentlocation)) {
+        const page = link.getAttribute('href').split("/").pop().replace(".html", "");
+
+        if (currentPath.includes(`/${page}.html`) || currentPath.includes(`/${page}/`)) {
             link.classList.add('active');
         } else {
             link.classList.remove('active');
