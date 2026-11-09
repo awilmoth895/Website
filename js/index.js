@@ -21,7 +21,7 @@ function isMobile() {
 
 function getBasePath() {
     // minus one for the blank space before the first / and one for the current page
-    const pathDepth = window.location.pathname.split("/").length - 2;
+    let pathDepth = window.location.pathname.split("/").length - 2;
 
     if (window.location.href.includes("awilmoth895.github.io")) {
         // subtract one as the hosted version path starts with website/
