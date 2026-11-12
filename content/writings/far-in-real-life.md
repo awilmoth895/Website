@@ -56,8 +56,12 @@ Now this has been simplified where the amount of units no longer has a set limit
 
 For example most of the lots in the FAR 1 areas, even the ones with small homes on them, could theoreticly, based on the current zoning, have homes like the ~2500 sqft house in [Image](old_zoning.png). Now these same lots would allow multiple smaller units like the 2800 sqft builidng in [Image](far_1.5_house.jpg) that could have 2 1400sqft units, 3 900sqft units or any compination that adds up to 2800 within reason set by the actual zoning laws I will cover in another article.
 
+<div class="image-group" markdown="1">
+
 ![old_zoning.png](../../assets/far_explained/old_zoning.png)
 ![far_1.5_house.jpg](../../assets/far_explained/far_1.5_house.jpg)
+
+</div>
 
 I want to also note this will mean an increase in density (Units per square acre) over time, but I also want to note that in areas being gentrified the old zoning laws would likely mean a majority of new things getting built would be large single family home as smaller homes would just make the developer less money. Raising property values around it and pushing people out. Now I am not saying that fixing zoning will solve gentrification, it is significantly more complicated than that. What I am saying is that allowing more units in the same amount of space will slow the rise of property values and rent as the supply of housing is allowed to grow as more people move in.   
 
