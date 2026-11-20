@@ -14,12 +14,7 @@
     display: none;
 }
 
-html {
-    /* background-color: var(--header-color); */
-    margin: 0px;
-    padding: 0px;
-    /* padding-bottom: 100px */
-}
+
 
 body {
     margin: 0;
@@ -27,29 +22,29 @@ body {
     background-color: var(--background-color);
     color: var(--text-color-light);
     background-image: url(../assets/red_brick_ao_1k.png);
-    padding-top: 5px;
-    padding-bottom: 5px;
 } 
 
 @media screen and (min-width: 768px) {
-    /* Styles for screens up to 768px width */
-    #header-container {
-        width: 100%;
-        position: fixed;
-        top: 0
+    .mobile-links {
+        display: none;
     }
+}
+
+#header-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    transition: 2s ease-out;
+
 }
 
 .header {
   
     background-color: var(--header-color);
-    margin: 0;
     padding: 10px 10px;
-    top: 0;
     border-top: 3px dotted var(--link-color);
     border-right: 3px dotted var(--link-color);
     border-left: 3px dotted var(--link-color);
-    /* margin-top: -10; */
 }
 
 
@@ -122,10 +117,13 @@ body {
 }
 
 .mobile-links {
+    padding: 0;
+    margin: 0;
     margin-top: 70px;
     border: 3px dotted var(--header-color);
     background-color: var(--link-color);
     box-shadow: 0px 5px 0px var(--header-color-light);
+
 }
 
 .mobile-links .links {
@@ -142,6 +140,7 @@ body {
     display: flex;
     border: none;
     width: 100%;
+    padding-right: 0;
 }
 
 .mobile-links .active {
@@ -159,35 +158,37 @@ body {
     padding-bottom: 20px;
     max-width: 1000px;
     margin: auto;
-    overflow: scroll;
     margin-bottom: 60px;
     margin-top: 130px;
-    /* margin-left: 0px; */
     background-color: var(--background-color);
     box-shadow: 5px 5px 0px var(--link-hover-color), -5px -5px 0px var(--link-hover-color);
+    transition: display 0.66s ease-out;
 
+}
+
+@media screen and (max-width: 1076px) {
+    .content {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     /* Styles for screens up to 768px width */
-
-    .header {
-        width: 100%;
-        position: fixed;
-        top: 0;
-        border: 3px dotted var(--link-color);
-        box-shadow: 0px 5px 0px var(--header-color-light);
-
+    .links-container {
+        display: none;
     }
 
-    .content {
+    .content {        
         margin: 10px;
         margin-top: 15px;
-        margin-bottom: 60px;
+        margin-bottom: 55px;
         padding-left: 15px;
         padding-right: 15px;
     }
 }
+
+
 
 #footer-container {
     bottom: 0;

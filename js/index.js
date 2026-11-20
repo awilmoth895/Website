@@ -38,45 +38,35 @@ function getBasePath() {
 }
 
 function addHeader() {
-    let header = ``;
-    if (isMobile()) {
-        header = 
-            `<div class="header">
-                <div class="title-container">
-                    <img class="logo" src="${BASE_PATH}assets/leaf_t.gif" alt="">
-                    <h1 class="title"><a href="${BASE_PATH}index.html">Autumn's Website!</a></h1>
-                    <!-- <img class="logo" src="${BASE_PATH}assets/leaf_t.gif" alt=""> -->
-                </div>
-            </div>
-            <div class="mobile-links">
-                <ul class="links">
-                    <li><a href="${BASE_PATH}pages/about.html">About</a></li>
-                    <li><a href="${BASE_PATH}pages/projects.html">Projects</a></li>
-                    <li><a href="${BASE_PATH}pages/writing.html">Writing</a></li>
-                    <li><a href="${BASE_PATH}pages/music.html">Music</a></li>
-                    <li><a href="${BASE_PATH}pages/resources.html">Resources</a></li>
-                </ul>
+    const links = 
+        `<div class="mobile-links">
+            <ul class="links">
+                <li><a href="${BASE_PATH}pages/about.html">About</a></li>
+                <li><a href="${BASE_PATH}pages/projects.html">Projects</a></li>
+                <li><a href="${BASE_PATH}pages/writing.html">Writing</a></li>
+                <li><a href="${BASE_PATH}pages/music.html">Music</a></li>
+                <li><a href="${BASE_PATH}pages/resources.html">Resources</a></li>
+            </ul>
             </div>`;
-    } else {
-        header =
-            `<div class="header">
-                <div class="title-container">
-                    <img class="logo" src="${BASE_PATH}assets/leaf_t.gif" alt="">
-                    <h1 class="title"><a href="${BASE_PATH}index.html">Autumn's Website</a></h1>
-                </div>
+    const header =
+        `<div class="header">
+            <div class="title-container">
+                <img class="logo" src="${BASE_PATH}assets/leaf_t.gif" alt="">
+                <h1 class="title"><a href="${BASE_PATH}index.html">Autumn's Website</a></h1>
             </div>
-            <div class="links-container">
-                <ul class="links">
-                    <li><a href="${BASE_PATH}pages/about.html">About</a></li>
-                    <li><a href="${BASE_PATH}pages/projects.html">Projects</a></li>
-                    <li><a href="${BASE_PATH}pages/writing.html">Writing</a></li>
-                    <li><a href="${BASE_PATH}pages/music.html">Music</a></li>
-                    <li><a href="${BASE_PATH}pages/resources.html">Resources</a></li>
-                </ul>
-            </div>`;
-    }
+        </div>
+        <div class="links-container">
+            <ul class="links">
+                <li><a href="${BASE_PATH}pages/about.html">About</a></li>
+                <li><a href="${BASE_PATH}pages/projects.html">Projects</a></li>
+                <li><a href="${BASE_PATH}pages/writing.html">Writing</a></li>
+                <li><a href="${BASE_PATH}pages/music.html">Music</a></li>
+                <li><a href="${BASE_PATH}pages/resources.html">Resources</a></li>
+            </ul>
+        </div>`;
 
     document.getElementById('header-container').innerHTML = header;
+    document.getElementById('header-container').insertAdjacentHTML('afterend', links);
 
     setActiveLink();
 }
@@ -108,7 +98,8 @@ function setActiveLink() {
     });
 }
 
- window.onload = function(){
+
+document.addEventListener("DOMContentLoaded", function() {
     addHeader();
     addFooter();
-}
+});
