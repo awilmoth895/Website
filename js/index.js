@@ -37,25 +37,8 @@ function getBasePath() {
     return basePath;
 }
 
-function addHeader() {
-    const links = 
-        `<div class="mobile-links">
-            <ul class="links">
-                <li><a href="${BASE_PATH}pages/about.html">About</a></li>
-                <li><a href="${BASE_PATH}pages/projects.html">Projects</a></li>
-                <li><a href="${BASE_PATH}pages/writing.html">Writing</a></li>
-                <li><a href="${BASE_PATH}pages/music.html">Music</a></li>
-                <li><a href="${BASE_PATH}pages/resources.html">Resources</a></li>
-            </ul>
-            </div>`;
-    const header =
-        `<div class="header">
-            <div class="title-container">
-                <img class="logo" src="${BASE_PATH}assets/leaf_t.gif" alt="">
-                <h1 class="title"><a href="${BASE_PATH}index.html">Autumn's Website</a></h1>
-            </div>
-        </div>
-        <div class="links-container">
+function headerLinks(displayType) {
+    return `<div class="links-container ${displayType}">
             <ul class="links">
                 <li><a href="${BASE_PATH}pages/about.html">About</a></li>
                 <li><a href="${BASE_PATH}pages/projects.html">Projects</a></li>
@@ -64,9 +47,21 @@ function addHeader() {
                 <li><a href="${BASE_PATH}pages/resources.html">Resources</a></li>
             </ul>
         </div>`;
+}
+
+function addHeader() { 
+    const header =
+        `<div class="header">
+            <div class="title-container">
+                <img class="logo" src="${BASE_PATH}assets/leaf_t.gif" alt="">
+                <h1 class="title"><a href="${BASE_PATH}index.html">Autumn's Website</a></h1>
+            </div>
+        </div>
+        ${headerLinks("desktop")}
+        </div>`;
 
     document.getElementById('header-container').innerHTML = header;
-    document.getElementById('header-container').insertAdjacentHTML('afterend', links);
+    document.getElementById('header-container').insertAdjacentHTML('afterend', headerLinks("mobile"));
 
     setActiveLink();
 }
