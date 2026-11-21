@@ -9,7 +9,6 @@
     --test-color-dark: #fce7ff;
     --title-color: black;
     --browser-color: black;
-
 }
 
 @media (prefers-color-scheme: light) {
@@ -45,8 +44,8 @@ body {
 
 }
 
-
-@media screen and (max-width: 768px) {
+/* 768 */
+@media screen and (max-width: 425px) {
     .header {
         border-bottom: 3px dotted var(--link-color);
         box-shadow: 0px 5px 0px var(--header-color-light);
@@ -163,15 +162,15 @@ body {
     background-color: var(--header-color-light);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 425px) {
     .mobile.links-container {
         display: none;
         /* background-color: red; */
     }
 }
 
-@media screen and (max-width: 768px) {
-    /* Styles for screens up to 768px width */
+@media screen and (max-width: 425px) {
+    /* Styles for screens up to 425px width */
     .desktop.links-container {
         display: none;
     }
@@ -214,7 +213,7 @@ body {
 
 /* content */
 .content {
-    padding: 0px 25px;
+    padding: 0px 22px;
     padding-bottom: 20px;
     max-width: 1000px;
     margin: auto;
@@ -222,11 +221,11 @@ body {
     margin-top: 130px;
     background-color: var(--background-color);
     box-shadow: 5px 5px 0px var(--link-hover-color), -5px -5px 0px var(--link-hover-color);
-    transition: display 0.66s ease-out;
+    border: 3px dotted var(--divider-color);
 
 }
 
-@media screen and (max-width: 768px) {   
+@media screen and (max-width: 425px) {   
     .content {        
         margin: 10px;
         margin-top: 15px;
