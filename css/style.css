@@ -315,6 +315,11 @@ body {
 #content-container {
     padding: 130px 15px 60px 15px;
     width: min(1000px, calc(100% - 30px));
+    /* margin-right: min(400px, calc(100% - 1000px)); */
+    margin-left: max(0px, min(55px, calc(50% - 1030px/2)));
+    margin-right: auto;
+    /* margin-left: min(100px, calc(100% - 1000px)); */
+
 }
 
 .content {
@@ -325,22 +330,34 @@ body {
     border: 3px dotted var(--divider-color);
 
 }
+
 @media screen and (min-width: 425px) {
     body {
         display: flex;
-        justify-content: center
+        justify-content: flex-start;
     }
     
     body:has(.sidebar) #content-container {
-        margin: auto;
-        padding-right: min(270px, calc(100% - 1300px));
-        width: min(1015px, calc(100% - 30px));
+        /* margin-left: max(0px, min(0px, calc(50% - 1000px/2))); */
+        /* margin-left: 0; */
+        margin: 0px;
+        /* margin-left: min(200px, calc(100% - 1000px)); */
+
+        /* padding-right: min(270px, calc(100% - 1300px)); */
+        /* width: min(1015px, calc(100% - 30px)); */
     }
     body:has(.sidebar) .content {
         margin-right: 15px
         
     }
 
+}
+
+body:has(.sidebar) #content-container.sidebar-spacing {
+    /* padding-right: min(70px, calc(100% - 1300px)); */
+    /* translate: 200px; */
+    /* width: min(1015px, calc(100% - 30px)); */
+    /* margin-left: 200px; */
 }
 
 
@@ -355,7 +372,7 @@ body {
 }
 
 /* 1076 1045 */
-@media screen and (max-width: 1045px) {
+@media screen and (max-width: 425px) {
     .sidebar {
         /* visibility: hidden; */
         /* content: "" */

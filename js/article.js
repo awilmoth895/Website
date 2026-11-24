@@ -66,24 +66,35 @@ async function buildArticle() {
     }
 }
 
+let modified = 0;
+
+
 function addSidebar() {
     const sections = document.querySelectorAll("h2, h3, h4, h5, h6");
     
     let links = ``;
+    let enabled = ["", "", "⟪"]
+
+    if (window.innerWidth < 1300) {
+        enabled = [
+            "disable", "hidden", "⟫"
+        ];
+    }
 
     sections.forEach(function (section) {
         console.log("Section: ", section);
         
         links += 
             `<li class="${section.localName}">
-                <a href=#${section.id}>${section.innerHTML}</a>
+                <a class="${enabled[0]}" href=#${section.id}>${section.innerHTML}</a>
             </li>`;
     });
 
+
     const sidebar = 
-        `<div class="links-container sidebar">
+        `<div class="links-container sidebar ${enabled[1]}">
             <ul class="links">
-                <li class="sidebar-header"><div class="sidebar-title">Article Sections</div><div class="close">⟪</div></li>
+                <li class="sidebar-header"><div class="sidebar-title">Article Sections</div><div class="close">${enabled[2]}</div></li>
                 ${links}
             </ul>
         <div>`
@@ -93,6 +104,7 @@ function addSidebar() {
     document.querySelector(".sidebar").addEventListener("click",function (e) {
         let sidebar = document.querySelector(".sidebar");
         let close = document.querySelector(".close");
+        modified = 1;
 
         if (sidebar.classList.contains("hidden")) {
             close.textContent = "⟪"
@@ -105,8 +117,42 @@ function addSidebar() {
             sl.classList.toggle("disable");
         });
         sidebar.classList.toggle("hidden");
+        document.getElementById("content-container").classList.toggle("sidebar-spacing");
+
     });
-} 
+}
+
+
+// single function that can toggle or set the value
+// if user interacts then no changing
+
+window.addEventListener("resize", function (e) {
+    // console.log(window.innerWidth);
+    // if (window.innerWidth < 1300 ) {
+    if (window.innerWidth < 1000) {
+        modified = 0;
+    }
+
+    if (!modified) {
+        let sidebar = document.querySelector(".sidebar");
+        let close = document.querySelector(".close");
+        
+        if (sidebar.classList.contains("hidden") && window.innerWidth > 1300) {
+            close.textContent = "⟪"
+        } else if (!sidebar.classList.contains("hidden") && window.innerWidth < 1300) {
+            close.textContent = "⟫";
+        } else { return; }
+
+
+        let seclink = document.querySelectorAll(".sidebar li a");
+        seclink.forEach(function (sl) {
+            sl.classList.toggle("disable");
+        });
+        sidebar.classList.toggle("hidden");
+        document.getElementById("content-container").classList.toggle("sidebar-spacing");
+    }
+
+});
 
 
 await buildArticle();
