@@ -5,7 +5,7 @@ In light of the new Sacramento zoning laws which you can read about more at *[Zo
 
 FAR is the ratio between the area of a lot versus the area of the building on the lot. For a longer overview of FAR please check out my other article *[FAR Explained Visually][15]*
 
-## Overview
+### Overview
 
 The way the city uses FAR to regulate density is by setting up FAR maximums. Meaning in an area with a max FAR of 1 anything building under a FAR of 1 can be built and so forth. In Sacramento the FAR minimums range from 1 to 15 but in Oak Park the FAR maximums are only 1, 2 and 4. as shown in the map in [Image](#OakParkFAR.jpg)
 
@@ -46,7 +46,7 @@ For any lots with max FAR of 4 lots with a max FAR of 1 there will need to be a 
 
 I also what to note before I go over how this will effect Oak Park. When a lot is designated a FAR value as seen in [Image](#OakParkFAR.jpg) this just setting the max square footage and the max height of what can be built. The lot sizes, the distance between buildings, the shape of buildings, the open space required and what can go in the buildings are all definde by the zoning which I will go over in another article. I will link it here when I finish it.
 
-## FAR 1
+### FAR 1
 
 ![FAR1.jpg](../../assets/far_explained/FAR1.jpg)
 
@@ -65,7 +65,7 @@ For example most of the lots in the FAR 1 areas, even the ones with small homes 
 
 I want to also note this will mean an increase in density (Units per square acre) over time, but I also want to note that in areas being gentrified the old zoning laws would likely mean a majority of new things getting built would be large single family home as smaller homes would just make the developer less money. Raising property values around it and pushing people out. Now I am not saying that fixing zoning will solve gentrification, it is significantly more complicated than that. What I am saying is that allowing more units in the same amount of space will slow the rise of property values and rent as the supply of housing is allowed to grow as more people move in.   
 
-### FAR 1 Examples
+#### FAR 1 Examples
 Of course any area given a max FAR of 1 can and most likely will primarly have buildings under a FAR of 1. So these are just the max size buindings that could be built.
 
 Below in [Image](#vallyVision_front.jpg) and [Image](#vallyVision_topdown.jpg) you can see simplest form of a building with a FAR of 1. As you can see the building is one story but fills the lot it is on perfectly. This is not common in new buildings as there are now setbacks that require some space between the building and the edge of the lot in most cases. But you do see it often in older buildings like this one.
@@ -109,13 +109,13 @@ I couldn't find any other good examples of non commercial 3 story buildings in O
 
 Again this is just the max size building you would see, anything under this is also allowed and more likely to actually happen as the zoning has other limitations, like how close the building can be to the edge of the lot and open space requirements.
 
-## FAR 2
+### FAR 2
 
 ![FAR 2.jpg](../../assets/far_explained/FAR%202.jpg)
 
 This will mostly effect North Oak Park. (*[Old zoning map][4]*) Areas with a max of FAR 2 would allow double the amount of floor area on the lot compared to FAR 1 areas. So a 1000 sqft lot could have a 2000 sqft building. This area also has a max height of 45 ft. (*[Building heights][3]*) This is heigher than what has been allowed before in much of Oak Park but most of the area north of Broadway and west of Sac High had this height limit already.(*[R4 zoning][7]*)
 
-### FAR 2 examples
+#### FAR 2 examples
 
 An example of an FAR 2 building would be the building in [image](#far2Retail_front.jpg) and [image](#far1Retail_topdown.jpg) that fills it's whole lot and is two stores. The buildng square foot is double the lot square footage.
 
@@ -132,13 +132,13 @@ Another example would be these 2 story apartments in [Image](#far2_apartments_fr
 
 Just like how many FAR 1 buildings end up bing 2 story many FAR 2 buildings will need to be 3 story. Oak Park doesn't have that many 3 story buildings but they will likely look like the 3 story buildings I showed in the FAR 1 section, just on a smaller lot or with less open space.
 
-## FAR 4
+### FAR 4
 
 The locations marked as FAR 4 are almost all commercial zoned locations along Broadway, Stockton Blvd and the north most part of MLK, there are a few exceptions but they are almost all lots next to commercial location. I wont get into comercial zoning here that is for another article but basically these lots allow business to exist in them along with just about anything else you would find in residential zoning. (*[Commercial Zoning][8]*)
 
 Commercial lots are not getting as much change with the new zoning laws and they have had a FAR of 4 as of 2024 when the 2040 plan was approved. But before that most of these had an FAR of 3 dating back to 2015. (*[2035 General Plan][9]*) Meaning most of the big changes happening in theses areas right now are not related to the new zoning changes. Instead what has caused new development along these corridors can be attributed to Aggie square and the removal of parking minimums. I don't want to get into parking here but I will say parking requirements often limit new developments from being built at all. An exchange of real housing for hypothetical parking. You can read more about this here *[Parking minimums are a barrier to housing development][10]* or if you want to a deep dive on parking check out *[Paved Paradise by Henry Grabar][11]* or if you want to get increadibly deep into the weeds *[The High Cost of Free Parking by Donald Shoup][12]*
 
-### FAR 4 examples
+#### FAR 4 examples
 
 But what does FAR 4 actually look like. This one is a lot harder because it really depends on the open space. A tall building with a lot of parking can have a low FAR like the massive DMV building on Broadway has a far a little over 2 only counting the parking in front of the building. ([Image](#dmv_front.jpg) and [Image](#dmv_topdown.jpg))
 
@@ -158,7 +158,7 @@ Where as this 3 story building in [Image](#three_story_downtown.jpg) has a highe
 
 What that means is in these areas we are going to see taller buildings between 3 and 8 story buildings, many of which will be mix use as we are already starting to see.
 
-## What will this actually look like next to my house
+### What will this actually look like next to my house
 
 One fear I think some have is a tall building showing up next to their house so I want to show some examples of what this may look like.
 
@@ -195,7 +195,7 @@ but what about higher story buildings. These are not common in Oak Park and will
 
 </div>
 
-## Step Down Heights
+### Step Down Heights
 
 I will admit that ([Image](#short_v_tall_6.jpg)) is pretty bad. It looks to be a 20ft house only 3 feet from an 85ft tall building. But this only happened because the house is likely on a lot that also is zoned to allow a a building simular to the one next to it. This could be an issue with some smaller houses along Broadway as these lots are and have been for awhile zoned for much larger buildings.
 
@@ -218,7 +218,7 @@ Meaning that if you wanted to max out the building on the lot you would be requi
 
 ![FAR_4_height.jpg](../../assets/far_explained/FAR_4_height.jpg)
 
-## Conclusion
+### Conclusion
 
 All in all what this means is we are going to see higher density throughout the whole city. This has its pros and cons and I am not going to get into them here. I just wanted to show what this might actually look like realistically within Oak Park and give an understanding of FAR that can help better understand the new Sacramento zoning laws.
 

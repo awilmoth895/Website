@@ -1,0 +1,38 @@
+<style type="text/css" media="screen">
+* {
+  box-sizing: border-box;
+}
+
+body {
+ display: flex;
+ margin: 0;
+ padding: 10px;
+ gap: 10px;
+}
+
+nav {
+ width: 20%;
+ height: 100vh;
+ top: 0; /* this is required for "sticky" to work */
+ position: sticky;
+ background: lightblue;
+ padding: 1rem;
+}
+
+main {
+ height: 3000px; /* cause scroll */
+ background: lightpink;
+ flex-grow: 1;
+ padding: 1rem;
+}
+</style>
+
+<body>
+ <nav>
+  sidebar here
+ </nav>
+
+ <main>
+  content here
+ </main>
+</body>

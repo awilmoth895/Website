@@ -93,7 +93,6 @@ function setActiveLink() {
     });
 }
 
-
 document.addEventListener("DOMContentLoaded", function() {
     addHeader();
     addFooter();

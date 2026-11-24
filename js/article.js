@@ -59,11 +59,54 @@ async function buildArticle() {
         `;
         contentContainer.innerHTML = articleHTML;
         createImageOrg();
+        addSidebar();
     } else {
         const contentContainer = document.querySelector('.article-container');
         contentContainer.innerHTML = `<h2>Article not found</h2>`;
     }
 }
+
+function addSidebar() {
+    const sections = document.querySelectorAll("h2, h3, h4, h5, h6");
+    
+    let links = ``;
+
+    sections.forEach(function (section) {
+        console.log("Section: ", section);
+        
+        links += 
+            `<li class="${section.localName}">
+                <a href=#${section.id}>${section.innerHTML}</a>
+            </li>`;
+    });
+
+    const sidebar = 
+        `<div class="links-container sidebar">
+            <ul class="links">
+                <li class="sidebar-header"><div class="sidebar-title">Article Sections</div><div class="close">⟪</div></li>
+                ${links}
+            </ul>
+        <div>`
+
+    document.getElementById("content-container").insertAdjacentHTML('beforebegin', sidebar);
+
+    document.querySelector(".sidebar").addEventListener("click",function (e) {
+        let sidebar = document.querySelector(".sidebar");
+        let close = document.querySelector(".close");
+
+        if (sidebar.classList.contains("hidden")) {
+            close.textContent = "⟪"
+        } else if (e.target == close) {
+            close.textContent = "⟫";
+        } else { return; }
+
+        let seclink = document.querySelectorAll(".sidebar li a");
+        seclink.forEach(function (sl) {
+            sl.classList.toggle("disable");
+        });
+        sidebar.classList.toggle("hidden");
+    });
+} 
 
 
 await buildArticle();
